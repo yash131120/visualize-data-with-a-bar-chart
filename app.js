@@ -8,6 +8,15 @@ const getData = async () => {
   return data;
 };
 
+// const putData = async () {
+//   const request = await fetch(
+//     "https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json"
+//   );
+//   const data = await request.json();
+//   return data;
+// };
+ 
+
 const draw = (queryData) => {
   const { data, name } = queryData;
 
